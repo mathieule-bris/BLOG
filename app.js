@@ -2,7 +2,7 @@
   var C = window.SITE, $ = function (i) { return document.getElementById(i); };
   var home = $("home"), page = $("page"), stage = $("stage"), audio = $("audio"), last = null, busy = false, by = {};
   C.sections.forEach(function (s) { by[s.id] = s; });
-  $("avatar").src = C.avatar; $("name").textContent = "Hi, I'm " + C.name; $("tagline").textContent = C.tagline;
+  $("avatar").src = C.avatar; $("name").textContent = "Bienvenue " + C.name; $("tagline").textContent = C.tagline;
   document.title = C.name;
   var mediaP = fetch("media.json", { cache: "no-cache" }).then(function (r) { return r.json(); }).catch(function () { return {}; });
   function ico(id) { return '<svg viewBox="0 0 100 100"><use href="icons.svg#' + id + '"/></svg>'; }
