@@ -4,7 +4,7 @@
 window.SITE = {
   name: "Mathieu Le Bris",
   tagline: "Blog Mathieu",
-  avatar: "images\website\avatarv1.png",
+  avatar: "images/website/avatarv1.png",
   sections: [
     { id: "map",       title: "Map",       icon: "map",       x: 18, y: 24, sub: "Places I've been." },
     { id: "earphones", title: "Listening", icon: "earphones", x: 80, y: 22, sub: "What's in my ears." },
