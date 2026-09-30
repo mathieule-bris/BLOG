@@ -2,9 +2,9 @@
 // x / y = where the object sits on the home scene (in %). icon = an id in icons.svg.
 // Each section's content lives in its own file: pages/<id>.html
 window.SITE = {
-  name: "Your Name",
-  tagline: "Thoughts, notes & things I make.",
-  avatar: "images/avatar.svg",
+  name: "Mathieu Le Bris",
+  tagline: "Blog Mathieu",
+  avatar: "images\website\avatarv1.png",
   sections: [
     { id: "map",       title: "Map",       icon: "map",       x: 18, y: 24, sub: "Places I've been." },
     { id: "earphones", title: "Listening", icon: "earphones", x: 80, y: 22, sub: "What's in my ears." },
